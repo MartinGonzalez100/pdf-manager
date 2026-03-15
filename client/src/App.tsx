@@ -38,6 +38,11 @@ function App() {
           <PathSelector onPathSet={handlePathSet} />
         )}
       </main>
+      <footer className="bg-white border-t border-gray-200 mt-auto">
+        <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 text-center text-gray-500 text-sm">
+          PDF Manager v1.1.0 - Gestión eficiente de documentos
+        </div>
+      </footer>
     </div>
   );
 }
